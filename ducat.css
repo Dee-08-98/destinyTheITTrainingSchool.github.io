@@ -1,0 +1,259 @@
+#navbrand2 {
+    font-size: 11px;
+    font-weight: 400;
+
+}
+
+#navbrand1 {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.navbar-nav {
+
+    color: rgb(0, 0, 0);
+   
+}
+
+
+@media (min-width:992px){
+    
+    
+    .navbar-brand {
+        margin-left: 190px;
+    }
+    .navbar-nav{
+    
+    margin-left: -630px;
+    
+    
+    }
+    
+    }
+    
+.nav-link {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+#jumboinput{
+    margin-left:150px;
+}
+#jumboinput1{
+   
+    margin-right:150px;
+}
+
+
+
+
+@media (max-width:991px){
+    
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+    #togicon{
+        margin-right: 20px;
+    }
+    #jumboinput{
+        margin-left:auto;
+    }
+    #jumboinput1{
+       
+        margin-right:auto;
+    }
+    .dropend:hover > .dropdown-menu{
+        top: 0;
+         left:100%;
+         margin-top: 15px;
+         width: 100%;
+     }
+     
+   
+
+}
+/* --------------dropdown----------- */
+.dropdown .dropend:hover .dropdown-menu  {
+    display: block;
+}
+
+.dropdown .dropend .dropdown-menu{
+    background-color: white;
+    text-align: center;
+}
+.dropdown .dropdown-menu{
+    text-align: center;
+}
+.dropdown .dropdown-menu li:hover{
+    background-color: rgb(89, 89, 247);
+    color: white;
+    
+} 
+ 
+.dropdown .dropend .dropdown-menu li a{
+   color: black;
+   border-bottom: 2px solid black;
+   font-weight: bold;
+}
+.dropend:hover > .dropdown-menu{
+    bottom: -175px;
+     left:100%;
+     margin-top: 15px;
+     width: 100%;
+ }
+ 
+
+
+/* -----------------navbar end--------------- */
+
+
+/* --------------home------------------ */
+/* ---------------jumbotron------------- */
+#btd {
+
+    height: 44px;
+    margin-top: 8px;
+}
+#hme{
+    margin-top: 5px;
+    
+    }
+
+    /* -------------Coursecategories----------- */
+    #coursecategories .row .col-lg-3 .a{
+        height: 250px;
+    }
+    #coursecategories .row .col-lg-3 .a .b img:hover{
+        height:105%;
+        width: 105%;
+        transition: 1s;
+    }
+    #coursecategories .row .col-lg-3 .a .b{
+        height: 220px;
+    }
+    #coursecategories .row .col-lg-3 .a .c{
+        font-size: 20px ;
+    }
+    #coursecategories .row .col-lg-3 .a .b img{
+        height: 100%;
+        width: 100%;
+    }
+    /* --------------------popular courses------------- */
+
+    #demo .carousel-inner .carousel-item .container .row .col-lg-4 .card{
+        height: 450px;
+    }
+    #demo .carousel-inner .carousel-item .container .row .col-lg-4 .card .a{
+        height: 350px;
+    }
+    #demo .carousel-inner .carousel-item .container .row .col-lg-4 .card .a img{
+        height:100%;
+        width: 100%;
+    }
+    #demo .carousel-inner .carousel-item .container .row .col-lg-4 .card .card-body{
+
+        height: 100px;
+    }
+
+/*   ------------home-end----------------- */
+
+
+/* -----------------placement---------- */
+/* .btn-warning {
+
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px black;
+    letter-spacing: 1px;
+} */
+
+
+#placement .row .a  a .btn-warning{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+#placement{
+    margin-top: 5px;
+   }
+
+   #placement .carousel .carousel-inner .carousel-item .container .row .col-lg-4 .card{
+    height: 600px;
+   }
+   #placement .carousel .carousel-inner .carousel-item .container .row .col-lg-4 .card .a{
+    height: 400px;
+   }
+   #placement .carousel .carousel-inner .carousel-item .container .row .col-lg-4 .card .a img{
+    height:100%;
+    width: 100%;
+    padding: 10px;
+   }
+   #placement .carousel .carousel-inner .carousel-item .container .row .col-lg-4 .card .card-body{
+    height: 200px;
+   }
+   
+/* -----------------placement-end--------- */
+/* -----------------Service--------- */
+.dropdown #drop li{
+    text-align: center;
+    font-weight:700;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* -----------------Service-end--------- */
+
+/* ---------------contact----------- */
+
+#contact {
+    margin-top: 5px;
+}
+/* ---------------contact end----------- */
+
+#about {
+    margin-top: 5px;
+}
+
+/* ----------------------about-end---------------------- */
+
+
+#certificate {
+    margin-top: 5px;
+}
+#footer {
+    margin-top: 163px;
+}
+
+/* ----------------------certificate-end---------------------- */
+
+
+.modal-footer {
+    border: none;
+}
+#certi .modal-body .form-group input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 7px 10px;
+}
+
+#certi .modal-body .form-group input:focus{
+    border: none;
+  
+}
+/*.modal-body{
+    background-color: black;
+    opacity: .8;
+}*/
+
+#btn {
+    margin-top: 144px;
+}
+
+
+
+
